@@ -32,3 +32,8 @@ ul li {
 li a {
     text-decoration: none;
 }
+ img {
+     width: 20%;
+     height: auto;
+     border-radius: 99%;
+ }
