@@ -17,7 +17,7 @@
 header {
     width: 100%;
     text-align: center;
-    border-bottom: 1px solid rgb(223, 223, 223);
+    /*border-bottom: 1px solid rgb(223, 223, 223);*/
 }
 
 h1 {
@@ -32,8 +32,20 @@ ul li {
 li a {
     text-decoration: none;
 }
- img {
+
+img {
      width: 20%;
      height: auto;
      border-radius: 99%;
+     margin-bottom: 40px;
+ }
+
+ p {
+    margin-bottom: 30px;
+ }
+
+ ul {
+     width: 100%;
+     display: flex;
+     justify-content: space-around;
  }
