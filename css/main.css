@@ -60,16 +60,58 @@ img {
     flex-wrap: wrap;   
  }
 
- .project {
-    background-color: rgb(184, 179, 179);
+ .project-image {
     height: 250px;
     width: 310px;
     margin: 6px;
     border-radius: 10px;
  }
 
- .project:hover {
-    background-color: rgb(218, 212, 212);
-    height: 260px;
-    width: 320px;
+ .project-name:hover {
+    background-color: rgba(167, 166, 166, 0);
+    color: rgba(167, 166, 166, 0);
+    transition: 0.4s;
  }
+
+ .project-name {
+     height: 100%;
+     width: 100%;
+     background-color: rgba(167, 166, 166, 0.459);
+     border-radius: 10px;
+     color: #f8f6f6;
+     font-size: 40px;
+     font-weight: 400;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ #p1 {
+     background-image: url(../photos/star-citizen.png);
+     background-size: cover;
+ }
+
+ #p2 {
+    background-image: url(../photos/rage.png);
+    background-size: cover;
+}
+
+#p3 {
+    background-image: url(../photos/little-nightmares.png);
+    background-size: cover;
+}
+
+#p4 {
+    background-image: url(../photos/elder-scrolls.png);
+    background-size: cover;
+}
+
+#p5 {
+    background-image: url(../photos/endless-space.png);
+    background-size: cover;
+}
+
+#p6 {
+    background-image: url(../photos/pagan.png);
+    background-size: cover;
+}
