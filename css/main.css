@@ -61,9 +61,15 @@ img {
  }
 
  .project {
-    background-color: red;
+    background-color: rgb(184, 179, 179);
     height: 250px;
     width: 310px;
-    margin: 10px;
+    margin: 6px;
     border-radius: 10px;
+ }
+
+ .project:hover {
+    background-color: rgb(218, 212, 212);
+    height: 260px;
+    width: 320px;
  }
