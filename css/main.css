@@ -17,7 +17,6 @@
 header {
     width: 100%;
     text-align: center;
-    /*border-bottom: 1px solid rgb(223, 223, 223);*/
 }
 
 h1 {
@@ -48,4 +47,23 @@ img {
      width: 100%;
      display: flex;
      justify-content: space-around;
+ }
+
+ main {
+    border-bottom: 1px solid rgb(223, 223, 223);
+    padding-bottom: 30px;
+ }
+ .project-links {
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;   
+ }
+
+ .project {
+    background-color: red;
+    height: 250px;
+    width: 310px;
+    margin: 10px;
+    border-radius: 10px;
  }
